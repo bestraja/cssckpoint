@@ -1,0 +1,63 @@
+header
+{
+background-color: rgb(247, 247, 168);
+position: fixed;
+width: 100%;
+z-index: 999;
+justify-content: space-between;
+display:flex;
+align-items: center;
+padding-left:10px;
+padding-right: 400px;
+}
+.logo
+{
+    color: blue;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight:150px;
+    font-size: 1.8cm;
+    
+}
+.navigation a
+{
+    color: blue;
+    text-decoration:none;
+    font-size:0.5cm;
+    font-weight:40px;
+    padding-right:20px;
+}
+.navigation a:hover
+{
+    color: brown;
+}
+
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    background: url(./im3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.main h5
+{
+color: black;
+font-size: 0.5cm;
+font-weight: 50;
+}
+.main h1
+{
+color:rgb(43, 46, 223);
+font-size: 0.5cm;
+font-weight: 50;
+font-family:"ROBOTO";
+}
+
+
+
+
